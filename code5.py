@@ -6,7 +6,7 @@ def multiply(x,y):
     return x*y
 def divide(x,y):
     return x/y
-
+count = 0
 while True:
     choice = input("enter operator (add, substract, multiply, divide):")
 
@@ -16,15 +16,20 @@ while True:
 
         if choice == "add":
             print(input1,"+",input2,"=",add(input1,input2))
+            count = +1
         elif choice == "substract":
             print(input1,"-",input2,"=",substract(input1,input2))
+            count = +1
         elif choice == "multiply":
             print(input1,"*",input2,"=",multiply(input1,input2))
+            count = +1
         elif choice == "divide":
             print(input1,"/",input2,"=",divide(input1,input2))
+            count = +1
 
         next_calculation = input("Let's do next calculation? (continue/exit): ")
         if next_calculation == "exit":
+            print(count)
             break
 
 """"
@@ -38,6 +43,7 @@ while True:
         4.0 + 5.0 = 9.0
         Let
         's do next calculation? (continue/exit): exit
+        1
 
         Process
         finished
