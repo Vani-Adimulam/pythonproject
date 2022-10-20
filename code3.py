@@ -25,20 +25,17 @@ for i in range(0,n):
     print ("job:",i["age"])
     print("city:",i["address"]["city"])
     print("\n")
-
 print(employees[1]['address']['country'])
 
-output:
-Enter list number:2
+'''output:
+Enter list number:1
 name: Tina
-job: 30
+job: DevOps Engineer
 city: New York
-
-
 name: Tim
-job: 35
+job: Developer
 city: Sydney
 Australia
 
-Process finished with exit code 0
+Process finished with exit code 0'''
 
