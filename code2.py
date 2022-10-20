@@ -5,6 +5,14 @@ employee = {
 "job":"devops engineer"}
 employee.pop("age")
 employee.update({"job":"software engineer"})
+print(employee)
 for x, y in employee.items():
     print(x,y)
-print(employee)
+    
+'''output:
+{'name': 'tim', 'birthday': '1990-03-10', 'job': 'software engineer'}
+name tim
+birthday 1990-03-10
+job software engineer '''
+
+
