@@ -7,3 +7,8 @@ print(list)
 num1=int(input("enter the number:"))
 list1=[i for i in my_list if i >= num1]
 print(list1)
+
+'''output:
+[10, 13, 22, 35, 52, 83]
+enter the number:34
+[35, 52, 83] '''
